@@ -1,24 +1,35 @@
+body{
+   padding:0;
+   margin:0;
+   font-family:Arial, Helvetica, sans-serif, 'helvetica neue'; 
+}
+
 section{
   width:960px;
   display: block;
-  background-color: #eee;
+  background-color:#ffffff;
   margin-left: auto;
   margin-right: auto;
 }
 
 h1{
     color:teal;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 .wrapper{
-    width:960px;
-    height:auto;
+    width:auto;
+   /* height:auto;*/
     display: block;
-    background-color:white;
+    background-color:#ffffff;
     margin-left: auto;
     margin-right: auto;
     overflow:auto;
+    padding-bottom:10px;
+    /*padding-top:0%;*/
+    margin-top: 0%;
 }
+
 #headerLeft{
     float:left;
     color:white;
@@ -29,6 +40,32 @@ h1{
     text-align:right;
     width:50%;
 }
+
 span{
     background-color:teal;
 }
+
+footer{
+    width:960px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#666666;
+    border-top-color:teal;
+    border-top-style: solid;
+    text-align:center;
+    
+}
+
+input[type=text],input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  input[type=submit]{
+     background-color: teal;
+
+  }
